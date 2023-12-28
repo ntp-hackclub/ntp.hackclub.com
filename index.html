@@ -1,85 +1,211 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <title>Hack Club CSS Starter Template</title>
-    <link rel="stylesheet" href="https://css.hackclub.com/theme.css" />
-    <link rel="stylesheet" href="style.css" />
 
-    <meta property="og:title" content="Hack Club CSS Starter Template" />
-    <meta name="twitter:title" content="Hack Club CSS Starter Template" />
-    <meta name="description" content="Hack Club CSS Starter Template" />
-    <meta property="og:description" content="Hack Club CSS Starter Template" />
-    <meta name="twitter:description" content="Hack Club CSS Starter Template" />
-  </head>
+<head>
+  <meta charset="utf-8" />
+  <title>Hack Club CSS Starter Template</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <link rel="stylesheet" href="https://css.hackclub.com/theme.css" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="./components/slider.css" />
+  <link rel="stylesheet" href="./components/panel.css" />
 
-  <body>
-    <!-- Delete this HTML and replace with your own HTML -->
-    <a class="banner" target="_blank" href="https://hackclub.com/">
-      <img src="images/flag-orpheus-top.png" />
-    </a>
+  <meta property="og:title" content="Hack Club CSS Starter Template" />
+  <meta name="twitter:title" content="Hack Club CSS Starter Template" />
+  <meta name="description" content="Hack Club CSS Starter Template" />
+  <meta property="og:description" content="Hack Club CSS Starter Template" />
+  <meta name="twitter:description" content="Hack Club CSS Starter Template" />
+  <link rel="icon" type="image/x-icon" href="/images/ntp.ico">
+</head>
 
-    <header>
-      <h1 class="ultratitle">CSS Starter Template</h1>
-      <p class="headline">Looking for a basic website template that includes Hack Club's theme CSS? Look no further!</p>
-    </header>
+<body>
+  <!-- Delete this HTML and replace with your own HTML -->
+  <a class="banner" target="_blank" href="https://hackclub.com/">
+    <img src="images/flag-orpheus-top.png" />
+  </a>
 
-    <div class="container blurb">
-      <p>This is a blank repository all set up for you to start your own website. We include <a target="_blank" href="https://css.hackclub.com/">Hack Club's theme CSS</a> for you to use if you wish.</p>
+  <header>
+    <h1 class="ultratitle">NTP Hack Club</h1>
+    <!-- <p class="headline">Workshops are for those who just want to get stuff done fast. Get a taste of cool new technologies, create with other students, think of some wild ideas, and more.</p> -->
+  </header>
+
+  <div class="container blurb">
+    <div class="panel-container">
+      <div class="panel panel-left">
+        <h1>What even is <p style="color: var(--red);">Hack Club</p>?</h1>
+      </div>
+      <div class="panel panel-right">
+        <!-- <h2>Content Panel</h2>
+      <p>This is the main content area. Put your content here.</p> -->
+        <p>
+          Hack Club is a non-profit network of coding clubs from all around the world. We're the first Hack Club in
+          Vietnam, passionate about Computer Science and building the things we love!
+        </p>
+      </div>
     </div>
-
-    <div class="card container">
-      <h2 class="headline">Local setup</h2>
-      <ol>
-        <li><a href="https://github.com/hackclub/css-starter/generate">Create a copy</a> of this template repository and name it <code>css-starter</code></li>
-        <li>Download or clone your new repository by clicking the green <code>Code</code> button
-          <ul>
-            <li>For downloading, click <code>Download Zip</code>. Drag that file to your desktop, open your terminal, and navigate to the file in your terminal:
-              <ul>
-                <li>Mac: <code>cd ~/Desktop/css-starter</code></li>
-                <li>Windows: <code>cd C:\Users\%USERNAME%\Desktop\css-starter</code></li>
-              </ul>
-            <li>For cloning on the command line, copy the URL they provide and type into your command line <code>git clone <URL> && cd css-starter</code> into your terminal, replacing <URL> with the URL you copied</li>
-          </ul>
-        <li>Start server in your terminal with <code>python -m SimpleHTTPServer</code></li>
-        <li>View your server at <code>http://localhost:8000</code></li>
-        <li>Write your code and refresh to see the changes</li>
-      </ol>
+  </div>
+  <div class="container blurb">
+    <div class="panel-container">
+      <div class="panel panel-left">
+        <h1>Do I need any <p style="color: var(--orange);">Experience</p>?</h1>
+      </div>
+      <div class="panel panel-right">
+        <!-- <h2>Content Panel</h2>
+      <p>This is the main content area. Put your content here.</p> -->
+        <p>
+          No, not at all! You just need to have a little bit of programming skill before joining NTP Hack Club! We're
+          all
+          here to learn, to develop together!
+        </p>
+      </div>
     </div>
-
-    <div class="card container">
-      <h2 class="headline">Deployment</h2>
-      <ul>
-        <li>We recommend <a target="_blank" href="https://vercel.com/docs/get-started">Vercel</a>, it's an simple and free way to get your website up quickly.</li>
-        <li>To use Vercel go to <a target="_blank" href="https://vercel.com/">vercel.com</a></li>
-        <ul>
-          <li>Create an account by authenticating your GitHub account with Vercel</li>
-          <li>Click <code>New project</code> on your dashboard</li>
-          <li>Select your <code>css-starter</code> GitHub repository</li>
-          <li>Add your project name and click <code>Deploy</code></li>
-          <li>Click the <code>Visit</code> button to see your website!</li>
-        </ul>
-      </ul>
+  </div>
+  <div class="container blurb">
+    <div class="panel-container">
+      <div class="panel panel-left">
+        <h1>I don't learn at your school <p style="color: var(--yellow);">Can I join</p>?</h1>
+      </div>
+      <div class="panel panel-right">
+        <!-- <h2>Content Panel</h2>
+      <p>This is the main content area. Put your content here.</p> -->
+        <p>
+          Currently, we are based in NTP Junior Highschool in Hue, Vietnam, however all highschool students are welcome
+          to
+          join!
+        </p>
+      </div>
     </div>
-    <div class="card container">
-      <h2 class="headline">Theme examples</h2>
-      <p>Want to use our theme but don't know where to start? Check out:</p>
-
-      <ul>
-        <li>View our theme elements <a target="_blank" href="https://css.hackclub.com/">here</a></li>
-        <li>View our theme code and documentation <a target="_blank" href="https://github.com/hackclub/css">here</a></li>
-        <li>View a static example of a site using our theme <a target="_blank" href="https://contribute.hackclub.com/">here</a> and its code <a target="_blank" href="https://github.com/hackclub/contribute">here</a></li>
-        <li>Join the <a target="_blank" href="https://hackclub.com/slack/">Hack Club Slack</a> and ask community members how they're using the theme!</li>
-      </ul>
+  </div>
+  <div class="container blurb">
+    <div class="panel-container">
+      <div class="panel panel-left">
+        <h1>Can I know your club's <p style="color: var(--green);">Meeting schedule</p>?</h1>
+      </div>
+      <div class="panel panel-right">
+        <!-- <h2>Content Panel</h2>
+      <p>This is the main content area. Put your content here.</p> -->
+        <p>
+          We are likely to have a meet on Friday at 4pm weekly both offline and online!
+        </p>
+      </div>
     </div>
-    <div class="card container">
-      <h2 class="headline">Contributing</h2>
-
-      <p>Contributions are encouraged and welcome! Feel free to submit a pull request with code changes, or open issues for suggestions or bug reports.</p>
-
-      <p>Development chatter happens in the <a target="_blank" href="https://app.slack.com/client/T0266FRGM/C036BTDGP43">#hackclub-site-dev</a> channel in the <a target="_blank" href="https://hackclub.com/slack/">Hack Club Slack</a>.</p>
+  </div>
+  <div class="container blurb">
+    <div class="panel-container">
+      <div class="panel panel-left">
+        <h1>What is special about <p style="color: var(--blue);">NTP Hack Club</p>?</h1>
+      </div>
+      <div class="panel panel-right">
+        <!-- <h2>Content Panel</h2>
+      <p>This is the main content area. Put your content here.</p> -->
+        <p>
+          We are planning to have a lot of hackathons, jams and workshop projects! But most important, everyone will get
+          a special gift ;)
+        </p>
+      </div>
     </div>
-  </body>
+  </div>
 
-  <script src="script.js"></script>
+  <br>
+
+  <!--  -->
+  <div class="slideshow-container">
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 3</div>
+      <img src="./images/img1.jpg" style="width:100%">
+      <div class="text">Haunted House Hackathon by NTP Hack Club</div>
+    </div>
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 3</div>
+      <img src="./images/img2.jpg" style="width:100%">
+      <div class="text">Haunted House Hackathon by NTP Hack Club</div>
+    </div>
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 3</div>
+      <img src="./images/img3.jpg" style="width:100%">
+      <div class="text">Haunted House Hackathon by NTP Hack Club</div>
+    </div>
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+  </div>
+
+  <br>
+
+  <h1 class="title">So, what are you waiting for?</h1>
+  <button class="lg cta btn center" onclick="">Join Us Now!</button>
+  <hr>
+  <br>
+  <div style="margin-top: 20px; display: flex; width: 100%; justify-content: center;">
+    <h1 class="title">Some of⠀</h1>
+    <h1 class="title" style="color: var(--red);">Hack Club⠀ </h1>
+    <h1 class="title">projects!</h1>
+  </div>
+
+  <div class="container blurb">
+    <div class="panel-container">
+
+      <div class="panel panel-right">
+        <!-- <h2>Content Panel</h2>
+      <p>This is the main content area. Put your content here.</p> -->
+        <p>
+          Play your own Sprig games on this console, which you can assemble and disassemble. Each kit includes parts
+          needed for getting started with hardware engineering and embedded systems programming.
+        </p>
+      </div>
+      <div class="panel panel-left">
+        <h1>Do you know <p style="color: var(--green); cursor: pointer; text-decoration: underline;"
+            onclick="window.open('https://sprig.hackclub.com/', '_blank');">You can get a free console</p>?</h1>
+      </div>
+    </div>
+  </div>
+  <div class="container blurb">
+    <div class="panel-container">
+
+      <div class="panel panel-right">
+        <!-- <h2>Content Panel</h2>
+      <p>This is the main content area. Put your content here.</p> -->
+        <p>
+          Circuit boards are magical. You design one, we'll print it. Completely for free! Get a $100 grant to fuel the
+          creation of your dream project with OnBoard.
+        </p>
+      </div>
+      <div class="panel panel-left">
+        <h1>Or a free <p style="color: var(--blue); cursor: pointer; text-decoration: underline;"
+            onclick="window.open('https://hackclub.com/onboard/', '_blank');">Circuit board</p>?</h1>
+      </div>
+    </div>
+  </div>
+  <div class="container blurb">
+    <h1 class="title">More and more projects are waiting for you on <p style="color: var(--orange); cursor: pointer; text-decoration: underline;"
+      onclick="window.open('https://hackclub.com/', '_blank');">Hack Club</p></h1>
+  </div>
+
+  <footer>
+    <div class="panel-container">
+      <div class="panel panel-left">
+        <h1>NTP Hack Club <p style="color: var(--blue);">Contact Information</p>
+        </h1>
+      </div>
+      <div class="panel">
+        <div class="panel-contact">
+          <i onclick="window.open('https://github.com/ntp-hackclub/', '_blank');"
+            class="fa-brands fa-2xl fa-github"></i>
+          <i onclick="window.open('https://www.facebook.com/profile.php?id=61554959764084', '_blank');"
+            class="fa-brands fa-2xl fa-facebook"></i>
+          <i onclick="window.open('mailto:nguyengiabach1201@gmail.com', '_blank');"
+            class="fa-solid fa-2xl fa-envelope"></i>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+
+<script src="script.js"></script>
+<script src="./components/slider.js"></script>
+
 </html>

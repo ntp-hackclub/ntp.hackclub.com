@@ -1,14 +1,44 @@
-/* Delete these styles and add your own styles here! */
-
 body {
   font-size: var(--font-3);
+  text-align: center;
+}
+
+::-webkit-scrollbar {
+	width: 10px;
+	height: 8px;
+	background-color: rgb(222, 211, 211);
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 25px;
+	background: gray;
 }
 
 header {
-  background: var(--purple);
+  /* background: var(--purple); */  
+  background-image: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url("./images/haunted-house.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+
   color: var(--white);
   padding: var(--spacing-6) var(--spacing-0) var(--spacing-6);
   text-align: center;
+}
+
+footer {
+  margin-top: 20px;
+  background: var(--dark);  
+  color: var(--white);
+  padding: var(--spacing-5) var(--spacing-0) var(--spacing-5);
+  text-align: center;
+}
+
+.center {
+  margin-top: 15px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .banner {
@@ -36,13 +66,15 @@ header {
   0% {
     transform: rotate(0deg);
   }
+
   100% {
     transform: rotate(-5deg);
   }
 }
 
-header > p, header > p > a{
-  color: var(--white)!important;
+header>p,
+header>p>a {
+  color: var(--white) !important;
 }
 
 .container {
